@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Spotify - Your favourite music is here</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="spotify-logo.png" alt="spotify-logo">Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+  <div class = "container">
+    <div class = "songList">
+      <h1>BEST OF NCS</h1>
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img src="7rings.jpeg" alt="1">
+          <span class="songName">7Rings</span>
+          <span class="songListplay"><span class="timestamp">05:30 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="sia-unstoppable.jpeg" alt="2">
+          <span class="songName">Unstoppable</span>
+          <span class="songListplay"><span class="timestamp">05:30 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="let me down slowly.jpeg" alt="3">
+          <span class="songName">Let Me Down Slowly</span>
+          <span class="songListplay"><span class="timestamp">05:30 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="i_was_never_there.jpeg" alt="4">
+          <span class="songName">I was Never There</span>
+          <span class="songListplay"><span class="timestamp">05:30 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="hymn_for.jpeg" alt="5">
+          <span class="songName">Hymn For The Weekend</span>
+          <span class="songListplay"><span class="timestamp">05:30 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="lift_me_up.jpeg" alt="6">
+          <span class="songName">Lift Me Up</span>
+          <span class="songListplay"><span class="timestamp">05:30 <i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="hate_me.jpeg" alt="7">
+          <span class="songName">Hate Me</span>
+          <span class="songListplay"><span class="timestamp">05:30 <i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class = "songBanner"></div>
+  </div>
+  <div class = "bottom">
+    <input type = "range" name = "range" id = "myProgressBar" min = "0" value = "0" max = "100">
+    <div class = "icon">
+      <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+      <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+      <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="dance-music.gif" width="42px" id="gif"> <span id="masterSongName">7 Rings</span>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/63aadb4af0.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
